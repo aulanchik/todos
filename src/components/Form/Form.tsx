@@ -61,7 +61,7 @@ const Form: React.FC<FormProps> = ({
       onSubmit={handleSubmit}
       className="space-y-4 rounded-lg p-4 mb-4 gap-4"
     >
-      <p className="text-3xl font-bold text-center">Note List</p>
+      <p className="text-3xl font-bold text-center">Todo List</p>
       <input
         value={title}
         placeholder="Title"
@@ -81,7 +81,7 @@ const Form: React.FC<FormProps> = ({
         type="submit"
         className="w-full bg-blue-500 text-white rounded-lg p-2 hover:bg-blue-600 transition duration-200"
       >
-        {currentTodo ? "Update Note" : "Add Note"}
+        {currentTodo ? "Update Todo" : "Add Todo"}
       </button>
     </form>
   );
